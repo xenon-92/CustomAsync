@@ -1,0 +1,43 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <script src="app1.js" defer></script>
+    <script src="app2.js" defer></script>
+    <script src="app3.js" defer></script>
+    <script src="app4.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <button class="btn-blocking">click me, but its blocking</button>
+      <div>
+          <h1></h1> 
+      </div>
+      <button class="btn-alert">Here,just to alert you!</button>
+    </div>
+    <div>
+      <h1></h1>
+      <h1></h1>
+    </div>
+    <div>
+      <button class="btn-nonBlocking">Non blocking button</button>
+      <div></div>
+      <button class="btn-nonBlocking-async">Non blocking button with local scope</button>
+    </div>
+    <div>
+        <h1></h1>
+        <h1></h1>
+    </div>
+    <div>
+        <button class="btn-postMessage"> Non blocking post message button</button>
+        <div></div>
+        <button class="btn-nonBlocking-yield">Non blocking Yield button</button>
+    </div>
+  </body>
+</html>
